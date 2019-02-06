@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 var linkContainer = document.getElementsByClassName("navbar");
 
-var links = linkContainer.getElementsByTagName("a");
+var links = linkContainer.getElementsByClassName("highlight");
 
 for (var i = 0; i < links.length; a++) {
     links[i].addEventListener("click", function() {
