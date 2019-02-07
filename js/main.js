@@ -9,17 +9,14 @@ $(document).ready(function(){
     limit: '10'
     });
     feed.run();
-})
+});
 
-var linkContainer = document.getElementsByClassName("navbar");
 
-var links = linkContainer.getElementsByClassName("highlight");
 
-for (var i = 0; i < links.length; a++) {
-    links[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className - current[0].className.replace("active", "");
-        this.className += "active";
+$(document).ready(function(){
+    $('a').each(function(){
+        if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('active'); $(this).parents('li').addClass('active');
+        }
     });
-}
-    
+});

@@ -31,14 +31,9 @@ body {
     padding-left: 1rem;
 }
 
-.active, a:hover {
-    color: red;
-}
-
 .active {
     color:red;
 }
-
 
 
 /* Header & Navbar*/
@@ -82,7 +77,7 @@ body {
 }
 
 .banner-container {
-    background-image: url(images/banner4.jpg);
+    background-image: url(../images/banner4.jpg);
     margin-top:0;
     display: block;
     background-position: center;
@@ -93,7 +88,7 @@ body {
 }
 
 .banner-container:hover {
-    background-image: url(images/banner1.jpg);
+    background-image: url(../images/banner1.jpg);
 }
 
 .banner-container:hover .small-logo {
@@ -316,5 +311,8 @@ body.modal-open .banner-container {
     font-size: 50px;
     display:block;
 }
+
+
+
 
 
