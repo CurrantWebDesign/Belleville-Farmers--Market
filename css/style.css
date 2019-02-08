@@ -31,11 +31,13 @@ body {
     padding-left: 1rem;
 }
 
-.active {
-    color:red;
+.navbar a:hover {
+    color: grey;
 }
 
-
+.active-page {
+    color: grey !important;
+}
 /* Header & Navbar*/
 
 .navbar {
@@ -105,6 +107,7 @@ body {
     padding-left: 10rem;
     padding-right: 10rem;
     margin-top: 7rem;
+    
 }
 
 #grid-one h1 {
@@ -147,10 +150,28 @@ body {
 }
 
 #grid-one .btn {
-    background-image: linear-gradient(to right, blue , aqua);
-    height: 5rem;
-    width: 15rem;
+    width:20rem;
+    flex: 1 1 auto;
+    margin: 1rem;   
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+       /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size: 2.5rem;`
 }
+
+#grid-one .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+#grid-one  .btn {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
 /* Grid Two */
 
 #grid-two {
@@ -167,10 +188,128 @@ body {
 }
 
 /* Instafeed */
+#insta-container  {
+    margin-top: 10rem;
+}
 
-#instafeed 
+#instafeed_gallery {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
+/* remove bootstrap gutter*/
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .row.no-gutter [class*='col-']:not(:first-child),
+  .row.no-gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  
+  /* the good stuff */
+ 
 
+  .img-featured-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-featured-container img {
+    width: 100%;
+  /*   padding: 10px; */
+  }
+  
+  .img-featured-container .img-backdrop {
+    background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .img-featured-container:hover > .img-backdrop {
+    opacity: 1;
+  }
+  
+  /* center text horizontally and vertically on image hover */
+  .img-featured-container .description-container {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    z-index: 2;
+    opacity: 0;
+    transition: all .2s ease;
+  }
+  
+  .img-featured-container .description-container .fa-instagram {
+    font-size: 40px;
+  }
+  
+  .img-featured-container .description-container p {
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  .img-featured-container:hover .description-container {
+    opacity: 1;
+  }
+  
+  .img-featured-container .description-container .caption {
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+  .img-featured-container .description-container .likes,
+  .img-featured-container .description-container .comments {
+    margin: 0 5px;
+  }
+  
+  /* load more button */
+  #btn-instafeed-load {
+    color: #fff;
+    background: #26a3ff;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 8px 40px;
+    display: block;
+    border: none;
+  }
+  
+  .instaimg {
+    margin-bottom:20px;
+  }
+  /* media queries  */
+  @media screen and (min-width:768px) {
+    .img-featured-container .description-container .caption {
+      display: block;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    #instafeed_gallery {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
 
 
 /* Vendor Page */
@@ -272,6 +411,8 @@ body {
         margin-right: 0px;
     }
 }
+
+
 
 
 
