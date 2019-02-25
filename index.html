@@ -73,7 +73,7 @@
                 <img class="rounded-circle img-fluid" src="images/clock.png" alt="clock">
                 <h2>Hours</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, arcu ut mattis bibendum, metus nulla consectetur elit, in imperdiet risus dolor mollis velit. Aliquam iaculis et mi non facilisis.</p>
-                <button type="button" class="btn">More Info</button>
+                <a href="vendor.html"><button type="button" class="btn">Vendors</button></a>
             </div>
             <div class="col-xl-4 col-lg-12 text-center m-auto">
                 <div class="iframe-outer">
@@ -83,13 +83,13 @@
                 </div>
                     <h2>Find Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, arcu ut mattis bibendum, metus nulla consectetur elit, in imperdiet risus dolor mollis velit. Aliquam iaculis et mi non facilisis.</p>
-                    <button type="button" class="btn">More Info</button>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#parking-modal">Parking</button>
                 </div>
             <div class="col-xl-4 col-lg-12 text-center m-auto">
                 <img class="rounded-circle img-fluid" src="images/event.jpg" alt="Bust Public Space">
                 <h2>Upcoming Events</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, arcu ut mattis bibendum, metus nulla consectetur elit, in imperdiet risus dolor mollis velit. Aliquam iaculis et mi non facilisis.</p>
-                <button type="button" class="btn">More Info</button>
+                <button type="button" class="btn" data-toggle="modal" data-target="#events-modal">Events</button>
             </div>
         </div>
     </div>
@@ -120,21 +120,44 @@
       <!-- Footer -->
       
 <!-- Grid One Modals -->
-
-    <div class="modal" id="parking">
-
-    </div>
-    <div class="modal" id="email-list">
-        <div class="modal-dialog">
+<div class="container" id="grid-one-modal">
+    <div class="modal grid-one-modal" id="parking-modal">
             <div class="modal-content">
-                <div class="modal-header">
-                    
+                <div class="modal-header text-center">
+                    <h2 class="modal-title">Parking</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid" src="images/parking-map-image.jpg" alt="Parking Map">
                 </div>
             </div>
-        </div>
     </div>
-    
-<!-- Instagram Post Carousel -->
+</div>
+
+<div class="container" id="grid-one-modal-two">
+    <div class="modal grid-one-modal" id="events-modal">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title">Events</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Water Front Festival</h2>
+                                 <img class="card-image-top" src="images/download.jpg" alt="Water Front Festival">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>                   
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
 
 
 </body>
