@@ -3,8 +3,8 @@
 
 var galleryFeed = new Instafeed({
     get: "user",
-    userId: 3113081133,
-    accessToken: "3113081133.1677ed0.a24bd84a410a4c7789ee600032c51544",
+    userId: 7609067911,
+    accessToken: "7609067911.1677ed0.8dbd92c8e3fa4b69ad9174cd7a279d22",
     resolution: "standard_resolution",
     useHttp: "true",
     limit: 30,
@@ -39,3 +39,21 @@ var galleryFeed = new Instafeed({
     
   });
   galleryFeed.run();
+
+
+$('.owl-carousel').owlCarousel2({
+  loop: true,
+  margin: 10,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})

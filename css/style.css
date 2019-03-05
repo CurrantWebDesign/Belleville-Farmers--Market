@@ -5,10 +5,14 @@ html {
 body {
     font-family: 'Oswald', sans-serif;
     background-color: white;
+    max-width: 100%;
 }
 
-/* Bootstrap Overrides */
 
+/* Bootstrap Overrides */
+.footer-copyright {
+    font-size: 1.5rem;
+}
 #grid-one .card-body {
     font-size: 3rem;
     color: white;
@@ -35,6 +39,19 @@ body {
     color: grey;
 }
 
+.line  {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    border-left: white 1px solid;
+}
+
+.line-two {
+    border-left: black 2px solid;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+}
+
 .active-page {
     color: grey !important;
 }
@@ -49,13 +66,12 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     color: white;
-    margin:-1px;
-    width: 100%;
 }
 
 .navbar-brand {
     font-size: 3rem;
     margin-bottom: 5px;
+    padding-right: .5rem;
 }
 
 .media-icon {
@@ -182,16 +198,36 @@ body {
     margin-top: 14%;
 }
 
-#grid-one-modal .modal-header {
+/* Grid Two */
+ #grid-one-modal .modal-header {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-#grid-one-modal-two .card{
-    width: 200px;
+#grid-one-modal-two .modal-body{
+    height: 50rem;
+    overflow-y: auto;
 }
-/* Grid Two */
 
+#grid-one-modal-two .modal{
+    margin: auto;
+    margin-top: 10%;
+    max-width: 70%;
+}
+
+#grid-one-modal-two .card{
+
+    margin: auto;
+    font-size: 1.4rem;
+}
+
+#carousel-container {
+    padding-top: 5rem;
+}
+#grid-one-modal-two .btn {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    font-size: 2rem;
+}
 #grid-two {
     height: 300px;
 }
@@ -333,22 +369,41 @@ body {
 
     #grid-one-modal .modal{
         width: 90%;
-        margin-top: 14%;
-
+        margin: auto;
+        margin-top: 7%;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    #grid-one-modal-two .modal {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #vendor-container .card-deck {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
 }
 
 
 /* Vendor Page */
-
+#vendor-container {
+    Padding-top: 10rem;
+}
 #vendor-container .card-deck {
-    margin-right: 10rem;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 #vendor-container .card {
     font-size: 1.6rem;
+    min-width: 25rem;
+    max-width: 25rem;
+    margin: auto;
 }
 
 #vendor-container .card h4 {
@@ -361,6 +416,15 @@ body {
     transform: translate3d(0px, -1px, 0px);
 }
 
+#vendor-container  .btn {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    margin-top: auto;
+    font-size: 2rem;
+}
+
+#vendor-container .card-text {
+    height: 100px;
+}
 
 /* Modal Vendor Cards */
 
@@ -479,8 +543,4 @@ body.modal-open .banner-container {
     font-size: 50px;
     display:block;
 }
-
-
-
-
 
