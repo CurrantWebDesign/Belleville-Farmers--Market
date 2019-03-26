@@ -29,7 +29,9 @@ body {
 
 .modal-footer .button {
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .navbar-brand {
@@ -103,7 +105,8 @@ body {
     max-width: 100%;
     max-height: 100%;
     opacity: 0.5;
-    filter: blur(2px);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
     z-index: 9999;
     padding-top: 8rem;
 }
@@ -121,7 +124,10 @@ body {
 
 .banner-container:hover .small-logo {
     opacity: 0.7;
-    filter: blur(0px);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
     transition: 200ms;
 }
 
@@ -184,16 +190,21 @@ body {
 
 #grid-one .btn {
     width:20rem;
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
     margin: 1rem;   
     padding: 2rem;
     text-align: center;
     text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
        /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-    box-shadow: 0 0 20px #eee;
+    -webkit-box-shadow: 0 0 20px #eee;
+            box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     font-size: 2.5rem;
     margin-top:5rem;
@@ -205,6 +216,9 @@ body {
   }
   
 #grid-one  .btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#5e5e5e), color-stop(51%, #292929), to(#212121));
+    background-image: -webkit-linear-gradient(left, #5e5e5e 0%, #292929 51%, #212121 100%);
+    background-image: -o-linear-gradient(left, #5e5e5e 0%, #292929 51%, #212121 100%);
     background-image: linear-gradient(to right, #5e5e5e 0%, #292929 51%, #212121 100%);
   }
 
@@ -241,6 +255,9 @@ body {
     padding-top: 5rem;
 }
 #grid-one-modal-two .btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#a1c4fd), color-stop(51%, #c2e9fb), to(#a1c4fd));
+    background-image: -webkit-linear-gradient(left, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-image: -o-linear-gradient(left, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     font-size: 2rem;
 }
@@ -294,6 +311,8 @@ body {
   }
   
   .img-featured-container .img-backdrop {
+    background: -webkit-linear-gradient(315deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
+    background: -o-linear-gradient(315deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
     background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
     margin: 0;
     padding: 0;
@@ -302,6 +321,8 @@ body {
     position: absolute;
     z-index: 1;
     opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
   
@@ -321,10 +342,15 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    transform-style: preserve-3d;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     z-index: 2;
     opacity: 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
     transition: all .2s ease;
   }
   
@@ -394,18 +420,23 @@ body {
 
 
 #vendor-container .card:hover {
-    box-shadow: -1px 9px 40px  -12px  rgba(0, 0, 0, 0.75);
-    transform: translate3d(0px, -1px, 0px);
+    -webkit-box-shadow: -1px 9px 40px  -12px  rgba(0, 0, 0, 0.75);
+            box-shadow: -1px 9px 40px  -12px  rgba(0, 0, 0, 0.75);
+    -webkit-transform: translate3d(0px, -1px, 0px);
+            transform: translate3d(0px, -1px, 0px);
 }
 
 #vendor-container  .btn {
+    background-image: -webkit-gradient(linear, left top, right top, from(#a1c4fd), color-stop(51%, #c2e9fb), to(#a1c4fd));
+    background-image: -webkit-linear-gradient(left, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-image: -o-linear-gradient(left, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     margin-top: auto;
     font-size: 2rem;
 }
 
 #vendor-container .card-text {
-    height: 100px;
+    height: 110px;
 }
 
 /* Modal Vendor Cards */
@@ -500,7 +531,6 @@ body {
 /* Shadow */
 
 .shadow {
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
 }
@@ -647,3 +677,70 @@ body.modal-open .banner-container {
 
 
 }
+
+@media only screen and (max-width:600px) {
+
+    #modal-cards h2{
+    font-size: 1.5rem;
+    padding-top: 0.5%;
+    }
+
+    #modal-cards h3{
+    font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    #modal-cards .col-lg-12 {
+    padding: 0;
+    margin: 0;
+    }
+
+    #modal-cards .row {
+    padding: 0;
+    margin: 0;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    #modal-cards p {
+        margin: auto;
+        padding: 0;
+        height: 40%;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    #modal-cards p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width:540px) {
+
+    #modal-cards p {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    #modal-cards .contact-table td {
+        font-size: 1.1rem;
+    }
+    
+    #modal-cards .contact-table {
+        margin-top: 20px;
+        margin-bottom: 23px;
+
+    }
+
+}
+
