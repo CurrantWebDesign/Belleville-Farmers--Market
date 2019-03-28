@@ -19,6 +19,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
 .footer-copyright {
     font-size: 1.5rem;
 }
@@ -514,6 +516,14 @@ body {
 
 .border {
     border: 1px black solid;
+}
+
+#modal-cards .no-left {
+    padding-left: 0px;
+}
+
+#vendor-container .card-title {
+    height: 60px;
 }
   
 
