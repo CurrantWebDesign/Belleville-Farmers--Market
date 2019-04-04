@@ -1,407 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Meta Shit Bro -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Meta Shit Bro -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Title -->
-    <title>Belleville Farmers Market</title>
+  <!-- Title -->
+  <title>Belleville Farmers Market</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    
-    <!--Css & Scripts-->
-    <link rel="stylesheet" type="text/css" href="css/reboot.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/instafeed.min.js"></script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/reboot.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-<!-- Navbar -->
-    <header>
-        <nav class="navbar fixed-top navbar-expand-md bg-dark">
-            <a href="index.html" class="navbar-brand">Home</a>
-                <button class="navbar-toggler navbar-dark ml-auto" data-toggle="collapse" data-target="#navbar1">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav">
-                    <li class="nav-item line">
-                        <a href="vendor.html" class="nav-link active-page">Meet Our Vendors</a>
-                    </li>
-                    <li class="nav-item line">
-                        <a href="join.html" target="blank" class="nav-link">Become a Vendor</a>
-                    </li>
-                    <li class="nav-item line">
-                        <a class="nav-link" target="_blank" href="https://wilsonapiaries.us7.list-manage.com/subscribe/post?u=259d05795aafa93b49e376b41&id=815cbdf020">Join
-                            Our Email List</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="https://www.facebook.com/Historical-Belleville-Farmers-Market-979029398955053/" class="media-link" target="_blank" class="nav-item">
-                            <img src="images/facebook.png" class="media-icon" alt="Facebook">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.instagram.com/bellevillefarmersmarketon/" class="media-link" target="_blank" class="nav-link">
-                            <img src="images/Instagram.png" class="media-icon" alt="Instagram">
-                        </a>            
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!-- Market Map Start -->
+  <!-- Navbar -->
+  <header class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-md bg-dark">
+      <a href="index.html" class="navbar-brand">Home</a>
+      <button class="navbar-toggler navbar-dark ml-auto" data-toggle="collapse" data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav">
+          <li class="nav-item line">
+            <a href="vendor.html" class="nav-link active-page">Meet Our Vendors</a>
+          </li>
+          <li class="nav-item line">
+            <a href="join.html" class="nav-link">Become a Vendor</a>
+          </li>
+          <li class="nav-item line">
+            <a href="https://wilsonapiaries.us7.list-manage.com/subscribe/post?u=259d05795aafa93b49e376b41&id=815cbdf020"
+              target="_blank"
+              class="nav-link">
+              Join Our Email List
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/Historical-Belleville-Farmers-Market-979029398955053/"
+              target="_blank"
+              class="media-link">
+              <img src="images/facebook.png" class="media-icon" alt="Facebook" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/bellevillefarmersmarketon/"
+              target="_blank"
+              class="media-link">
+              <img src="images/Instagram.png" class="media-icon" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Market Map Start -->
 
-    <!-- Market Map End -->
+  <!-- Market Map End -->
 
-<!-- Vendor Cards Start -->
+  <!-- Vendor Cards Start -->
 
-<div class="container-fluid" id="vendor-container">
+  <div class="container-fluid" id="vendor-container">
 
     <div class="card-deck">
 
-<!-- North Shore Organic Farm Start -->
+      <!-- North Shore Organic Farm Start -->
 
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/northshoreorganicfarmlogo.jpg" alt="North Shore Organics Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">North Shore Organic Farm</h4>
-                <p class="card-text text-center">An exciting range of vegetables & herbs including several varieties of garlic.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#north-shore-organic-farm">Read more</button>
-            </div>
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/northshoreorganicfarmlogo.jpg"
+            alt="North Shore Organics Logo">
         </div>
-
-<!-- End -->
-
-<!-- Posh SoapWorks Start -->
-
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/poshsoaplogo.jpg" alt="Posh SoapWorks Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Posh SoapWorks</h4>
-                <p class="card-text text-center">Hand made soaps, shampoo bars, hair conditioners, bath salts as well as face and body moisturizers and all things
-                face and body.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#posh-soapworks">Read more</button>
-            </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">North Shore Organic Farm</h4>
+          <p class="card-text text-center">An exciting range of vegetables & herbs including several varieties of
+            garlic.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#north-shore-organic-farm">Read more</button>
         </div>
+      </div>
 
-<!-- End -->
-                    
-<!-- Jackie's Market Stand Start -->
+      <!-- End -->
 
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/jackieslogo.jpg" alt="Jackie's Market Stand Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Jackie's Market Stand</h4>
-                <p class="card-text text-center">In business since 1990 at the Belleville Farmers' Market. Products include; home baking,
-                produce, meats, plants flowers and more.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#jackies-market-stand">Read more</button>
-            </div>
+      <!-- Posh SoapWorks Start -->
+
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/poshsoaplogo.jpg" alt="Posh SoapWorks Logo">
         </div>
-
-<!-- End -->
-
-<!-- Fullerton Farms Start -->
-
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/fullertonfarmslogo.jpg" alt="Fullerton Farms Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Fullerton Farms</h4>
-                <p class="card-text text-center">Seasonal Gourmet Mushrooms and More!</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#fullerton-farms">Read more</button>
-            </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Posh SoapWorks</h4>
+          <p class="card-text text-center">Hand made soaps, shampoo bars, hair conditioners, bath salts as well as face
+            and body moisturizers and all things
+            face and body.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#posh-soapworks">Read
+            more</button>
         </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Lewa Farm Ontario Start -->
+      <!-- Jackie's Market Stand Start -->
 
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/lewafarmlogo.jpg" alt="Lewa Farm Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Lewa Farm Ontario</h4>
-                <p class="card-text text-center">Naturally grown vegetables fresh from out fields to your doorsteps and farmers market.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#lewa-farm-ontario">Read more</button>
-            </div>
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/jackieslogo.jpg" alt="Jackie's Market Stand Logo">
         </div>
-
-<!-- End -->
-
-<!-- Susan's Dog Treats Start -->
-
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/susansdogtreatslogo.jpg" alt="Susans Dog Treats Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Susan's Dog Treats</h4>
-                <p class="card-text text-center">100% All natural homemade dog treats.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#susans-dog-treats">Read more</button>
-            </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Jackie's Market Stand</h4>
+          <p class="card-text text-center">In business since 1990 at the Belleville Farmers' Market. Products include;
+            home baking,
+            produce, meats, plants flowers and more.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#jackies-market-stand">Read more</button>
         </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Trees, Organic Food, Food for Thought Start -->
+      <!-- Fullerton Farms Start -->
 
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/treeslogo.jpg" alt="Trees, Organic Food, Food for Thought Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Trees, Organic Food, Food for Thought</h4>
-                <p class="card-text text-center">Landscaping trees, organic vegetables, books on politics, economics and philosophy authored by Vernon Molloy.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#food-for-thought">Read more</button>
-            </div>
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/fullertonfarmslogo.jpg" alt="Fullerton Farms Logo">
         </div>
-
-<!-- End -->
-
-<!-- Hidden Garden Farm Start -->
-
-        <div class="card mb-4 card-hover">
-            <div class="view overlay">
-                <img class="card-img-top img-fluid" src="images/hiddengardenslogo.jpg" alt="Hidden Gardens Logo">
-            </div>
-            <div class="card-body text-center">
-                <h4 class="card-title text-center">Hidden Garden Farm</h4>
-                <p class="card-text text-center">A tiny farm in Ameliasburg Ontario specializing in micro greens, seedlings and fresh vegetables grown with our own two
-                hands.</p>
-                <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#hidden-garden-farms">Read more</button>
-            </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Fullerton Farms</h4>
+          <p class="card-text text-center">Seasonal Gourmet Mushrooms and More!</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#fullerton-farms">Read more</button>
         </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Wilson Apiaries Farm Start -->
+      <!-- Lewa Farm Ontario Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/Wilson Flower.jpg"
-            alt="Wilson Apiaries Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Wilson Apiaries</h4>
-        <p class="card-text text-center">Wilson Apiaries produces local unpasteurized honey, homemade skin creams and fresh cut flowers.</p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/lewafarmlogo.jpg" alt="Lewa Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Lewa Farm Ontario</h4>
+          <p class="card-text text-center">Naturally grown vegetables fresh from out fields to your doorsteps and
+            farmers market.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#lewa-farm-ontario">Read more</button>
+        </div>
+      </div>
+
+      <!-- End -->
+
+      <!-- Susan's Dog Treats Start -->
+
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/susansdogtreatslogo.jpg" alt="Susans Dog Treats Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Susan's Dog Treats</h4>
+          <p class="card-text text-center">100% All natural homemade dog treats.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#susans-dog-treats">Read more</button>
+        </div>
+      </div>
+
+      <!-- End -->
+
+      <!-- Trees, Organic Food, Food for Thought Start -->
+
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/treeslogo.jpg"
+            alt="Trees, Organic Food, Food for Thought Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Trees, Organic Food, Food for Thought</h4>
+          <p class="card-text text-center">Landscaping trees, organic vegetables, books on politics, economics and
+            philosophy authored by Vernon Molloy.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#food-for-thought">Read more</button>
+        </div>
+      </div>
+
+      <!-- End -->
+
+      <!-- Hidden Garden Farm Start -->
+
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/hiddengardenslogo.jpg" alt="Hidden Gardens Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Hidden Garden Farm</h4>
+          <p class="card-text text-center">A tiny farm in Ameliasburg Ontario specializing in micro greens, seedlings
+            and fresh vegetables grown with our own two
+            hands.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#hidden-garden-farms">Read more</button>
+        </div>
+      </div>
+
+      <!-- End -->
+
+      <!-- Wilson Apiaries Farm Start -->
+
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/wilson-flower.jpg" alt="Wilson Apiaries Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Wilson Apiaries</h4>
+          <p class="card-text text-center">Wilson Apiaries produces local unpasteurized honey, homemade skin creams and
+            fresh cut flowers.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
             data-target="#wilson-apiaries">Read more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Haanover View Farm Start -->
+      <!-- Haanover View Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/haanoverlogo.jpg" alt="Haanover Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Haanover ViewFarms</h4>
-        <p class="card-text text-center">We are an accountable family farm. producing ecologically raised heritage pork, grass fed beef, rabbits and free range
-        chickens.</p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#haanoverfarm">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/haanoverlogo.jpg" alt="Haanover Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Haanover ViewFarms</h4>
+          <p class="card-text text-center">We are an accountable family farm. producing ecologically raised heritage
+            pork, grass fed beef, rabbits and free range
+            chickens.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#haanoverfarm">Read
             more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
 
-<!-- Fiddlehead Farm Start -->
+      <!-- Fiddlehead Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/fiddlehead.png" alt="Fiddelhead Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Fiddlehead Farm</h4>
-        <p class="card-text text-center">We are inspired by small scale organic agriculture, growing a wide diversity of crops to keep you eating interesting
-        locally grown veggies year round.</p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#fiddleheadfarm">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/fiddlehead.png" alt="Fiddelhead Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Fiddlehead Farm</h4>
+          <p class="card-text text-center">We are inspired by small scale organic agriculture, growing a wide diversity
+            of crops to keep you eating interesting
+            locally grown veggies year round.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#fiddleheadfarm">Read
             more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
 
-<!-- Providence Family Farm Start -->
+      <!-- Providence Family Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/providencelogo.jpg" alt="Providence Family Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Providence Family Farm</h4>
-        <p class="card-text text-center">Naturally Raised Grass Fed Beef, Pasture Raised Non-GMO fed Pork, and Chicken Tractor Pastured Chicken</p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#providencefamilyfarm">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/providencelogo.jpg" alt="Providence Family Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Providence Family Farm</h4>
+          <p class="card-text text-center">Naturally Raised Grass Fed Beef, Pasture Raised Non-GMO fed Pork, and Chicken
+            Tractor Pastured Chicken</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
+            data-target="#providencefamilyfarm">Read
             more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
 
-<!-- Big Creek Farm Farm Start -->
+      <!-- Big Creek Farm Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/bigcreekfarmlogo.jpg" alt="Big Creek Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Big Creek Farm</h4>
-        <p class="card-text text-center"></p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal"
-            data-target="#annecoleman">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/bigcreekfarmlogo.jpg" alt="Big Creek Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Big Creek Farm</h4>
+          <p class="card-text text-center"></p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#annecoleman">Read
             more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Blank Slate Farm Start -->
+      <!-- Blank Slate Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/blankslatefarmlogo.jpg" alt="Blank Slate Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Blank Slate Farm</h4>
-        <p class="card-text text-center">Local and sustainable market garden vegetables, with a focus on freshness, taste, biodiversity, and variety. We are 100%
-        chemical free and very pollinator friendly.</p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#blankslatefarm">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/blankslatefarmlogo.jpg" alt="Blank Slate Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Blank Slate Farm</h4>
+          <p class="card-text text-center">Local and sustainable market garden vegetables, with a focus on freshness,
+            taste, biodiversity, and variety. We are 100%
+            chemical free and very pollinator friendly.</p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#blankslatefarm">Read
             more</button>
-    </div>
-</div>
+        </div>
+      </div>
 
-<!-- End -->
+      <!-- End -->
 
-<!-- Farm Start -->
+      <!-- Farm Start -->
 
-<div class="card mb-4 card-hover">
-    <div class="view overlay">
-        <img class="card-img-top img-fluid" src="images/Charlenfarmlogo.jpg" alt="Charlen Farm Logo">
-    </div>
-    <div class="card-body text-center">
-        <h4 class="card-title text-center">Charlen Farm</h4>
-        <p class="card-text text-center"></p>
-        <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#charlenfarm">Read
+      <div class="card mb-4 card-hover">
+        <div class="view overlay">
+          <img class="card-img-top img-fluid" src="images/Charlenfarmlogo.jpg" alt="Charlen Farm Logo">
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title text-center">Charlen Farm</h4>
+          <p class="card-text text-center"></p>
+          <button type="button" class="btn btn-light-blue btn-md" data-toggle="modal" data-target="#charlenfarm">Read
             more</button>
+        </div>
+      </div>
+
+      <!-- End -->
+
+
     </div>
-</div>
+  </div>
 
-<!-- End -->
-
-
-    </div>
-</div>
-
-<!-- Vendor Cards End-->
+  <!-- Vendor Cards End-->
 
 
-<!-- Modals -->
+  <!-- Modals -->
 
-<div id="modal-cards">
+  <div id="modal-cards">
 
     <!-- Wilson Apiaries Modal Start -->
 
     <div class="modal" id="wilson-apiaries">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Wilson Apiaries</h2>
-                <h3 class="line-two">Stall # B11 B12</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/banner.jpg" alt="Wilsons Apiaries Stall">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p class="small-font">Wilson Apiaries produces local unpasteurized honey, homemade skin creams and fresh cut flowers.
-                        We are third generation beekeepers who produce local and unpasteurized honey. We currently have over 60 hives located
-                        throughout the Belleville and surrounding area. We use the beeswax from our honey production to produce skin creams. Our
-                        flower farm is located in Thomasburg, 25 minutes north of Belleville. Throughout the summer season we grow a wide
-                        variety of annuals and perennials specifically for fresh cut flowers and dried flowers. We do not use any herbicides,
-                        pesticides or fungicides on our flowers. At market we offer a wide variety of flower arrangements for in the home or a
-                        special occasion.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="fluid-container">
-                                <div class="col-12 no-padding">
-                                        <table class="table contact-table">
-                                            <tbody>
-                                                <tr>
-                                                    <th>Vendors:</th>
-                                                    <td>Ara Wilson & Mitchell Bateman</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>E-mail:</th>
-                                                    <td>wilsonapiaries@gmail.com</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Phone:</th>
-                                                    <td><a href="tel:613-885-0262">613-885-0262</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Website:</th>
-                                                    <td><a class="media-link" target="_blank" href="http://wilsonapiaries.ca/">www.wilsonapairies.com</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Facebook:</th>
-                                                    <td><a class="media-link" target="_blank" href="https://www.facebook.com/wilsonapiaries/">/wilsonapiaries</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Instagram:</th>
-                                                    <td><a class="media-link" target="_blank" href="https://www.instagram.com/wilsonapiaries/">/wilsonapiaries</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9pm-2pm</td> 
-                                    <td>Tuesday, Thursday, Saturday</td>
-                                    <td>Mar - Dec</td>
-                                </tr>
-                            </tbody>
-                        </table>                       
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Wilson Apiaries</h2>
+          <h3 class="line-two">Stall # B11 B12</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/banner.jpg" alt="Wilsons Apiaries Stall">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p class="small-font">Wilson Apiaries produces local unpasteurized honey, homemade skin creams and fresh
+                cut flowers.
+                We are third generation beekeepers who produce local and unpasteurized honey. We currently have over 60
+                hives located
+                throughout the Belleville and surrounding area. We use the beeswax from our honey production to produce
+                skin creams. Our
+                flower farm is located in Thomasburg, 25 minutes north of Belleville. Throughout the summer season we
+                grow a wide
+                variety of annuals and perennials specifically for fresh cut flowers and dried flowers. We do not use
+                any herbicides,
+                pesticides or fungicides on our flowers. At market we offer a wide variety of flower arrangements for in
+                the home or a
+                special occasion.</p>
+              <div class="container-fluid no-padding">
+                <div class="fluid-container">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Ara Wilson & Mitchell Bateman</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>wilsonapiaries@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-885-0262">613-885-0262</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="http://wilsonapiaries.ca/">www.wilsonapairies.com</a></td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/wilsonapiaries/">/wilsonapiaries</a></td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.instagram.com/wilsonapiaries/">/wilsonapiaries</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9pm-2pm</td>
+                    <td>Tuesday, Thursday, Saturday</td>
+                    <td>Mar - Dec</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Wilson Apiaries Modal End -->
@@ -409,1200 +443,1245 @@
 
 
     <!-- North Shore Organic Farm Modal Start -->
-    
+
     <div class="modal" id="north-shore-organic-farm">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>North Shore Organic Farm</h2>
-                <h3 class="line-two">Stall # A15</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/comingsoon.jpg" alt="North Shore Organic Farm Stall">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>We grow an exciting range of vegetables & herbs including several varieties of garlic, every year we introduce new
-                        vegetable varieties and other products to our market stand.
-                        All our produce is grown on our 75 acre farm just south of Napanee, close to The Bay of Quinte. <br>
-                        We specialize in companion planting and only use the certified organic principals that we have used for over 10 years -
-                        please note that the farm is no longer certified organic due to the annual cost and excessive paperwork - please be
-                        assured we would pass a certification inspection at any time.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Lesley & Spencer Hawkes</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>nsof@xplornet.ca</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://www.northshoreorganicfarm.ca/">northshoreorganicfarm.ca</a></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://www.facebook.com/pages/category/Farm/North-Shore-Organic-Farm-989591411123309/">/northshoreorganicfarm</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td><a class="media-link">N/A</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Thursday, Saturday</td>
-                                    <td>May - Nov</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>North Shore Organic Farm</h2>
+          <h3 class="line-two">Stall # A15</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/comingsoon.jpg" alt="North Shore Organic Farm Stall">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>We grow an exciting range of vegetables & herbs including several varieties of garlic, every year we
+                introduce new
+                vegetable varieties and other products to our market stand.
+                All our produce is grown on our 75 acre farm just south of Napanee, close to The Bay of Quinte. <br>
+                We specialize in companion planting and only use the certified organic principals that we have used for
+                over 10 years -
+                please note that the farm is no longer certified organic due to the annual cost and excessive paperwork
+                - please be
+                assured we would pass a certification inspection at any time.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Lesley & Spencer Hawkes</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>nsof@xplornet.ca</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.northshoreorganicfarm.ca/">northshoreorganicfarm.ca</a></td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/pages/category/Farm/North-Shore-Organic-Farm-989591411123309/">/northshoreorganicfarm</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link">N/A</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Thursday, Saturday</td>
+                    <td>May - Nov</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!--  Modal End -->
 
     <!-- Posh SoapWorks Modal Start -->
-    
+
     <div class="modal" id="posh-soapworks">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Posh SoapWorks</h2>
-                <h3 class="line-two">Stall # B7</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/poshsoap.jpg" alt="Posh SoapWorks Stall">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>I make hand made soaps, shampoo bars, hair conditioners, bath salts as well as face and body moisturizers/all things
-                        face and body. I produce all of these products myself using natural butters & oils. Each of my products are scented with
-                        Essential Oils. I use packaging that is environmentally friendly such as glass jars for my hair conditioners, face and
-                        body moisturizers. My soaps are all wrapped and banded with recycled brown Kraft papers.
-                        This will be my 6th year at the Farmers Market. I have been a soap maker for over 12 years.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Sharon Burns-Smits</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>poshsoaps@hotmail.com</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td><a href="tel:613-885-8192">613-885-8192</a></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://www.facebook.com/pages/category/Farm/North-Shore-Organic-Farm-989591411123309/">/northshoreorganicfarm</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Thursday, Saturday</td>
-                                    <td>May - Nov</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Posh SoapWorks</h2>
+          <h3 class="line-two">Stall # B7</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/poshsoap.jpg" alt="Posh SoapWorks Stall">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>I make hand made soaps, shampoo bars, hair conditioners, bath salts as well as face and body
+                moisturizers/all things
+                face and body. I produce all of these products myself using natural butters & oils. Each of my products
+                are scented with
+                Essential Oils. I use packaging that is environmentally friendly such as glass jars for my hair
+                conditioners, face and
+                body moisturizers. My soaps are all wrapped and banded with recycled brown Kraft papers.
+                This will be my 6th year at the Farmers Market. I have been a soap maker for over 12 years.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Sharon Burns-Smits</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>poshsoaps@hotmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-885-8192">613-885-8192</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/pages/category/Farm/North-Shore-Organic-Farm-989591411123309/">/northshoreorganicfarm</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Thursday, Saturday</td>
+                    <td>May - Nov</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Posh SoapWorks Modal End -->
-    
+
 
     <!-- Jackie's Market Stand Modal Start -->
-    
+
     <div class="modal" id="jackies-market-stand">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Jackie's Market Stand</h2>
-                <h3 class="line-two">Stall # A25 - A28</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/jackiesmarketmodal.jpg" alt="Jackie's Market Stand">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>Jackie's Market Stand has been is business since 1990 at the Belleville Farmers' Market. Products include; home baking,
-                        produce, meats, plants flowers and more. We produce as much as we can ourselves and the remainder of the products sold
-                        are sourced from local farmers. Most of these farmers are located in Prince Edward County.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Jackie Tapp</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td><a href="tel:613-848-8432">613-848-8432</a></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://www.facebook.com/jackiesmarketstand/?fref=gs&dti=120027456857&hc_location=group_dialog">/jackiesmarketstand</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>8am-5pm</td>
-                                    <td>Tueday, Thursday, Saturday</td>
-                                    <td>Jan - Dec</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Jackie's Market Stand</h2>
+          <h3 class="line-two">Stall # A25 - A28</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/jackiesmarketmodal.jpg" alt="Jackie's Market Stand">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Jackie's Market Stand has been is business since 1990 at the Belleville Farmers' Market. Products
+                include; home baking,
+                produce, meats, plants flowers and more. We produce as much as we can ourselves and the remainder of the
+                products sold
+                are sourced from local farmers. Most of these farmers are located in Prince Edward County.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Jackie Tapp</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-848-8432">613-848-8432</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/jackiesmarketstand/?fref=gs&dti=120027456857&hc_location=group_dialog">/jackiesmarketstand</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8am-5pm</td>
+                    <td>Tueday, Thursday, Saturday</td>
+                    <td>Jan - Dec</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Jackie's Market Stand Modal End -->
 
     <!-- Fullerton Farms Modal Start -->
-    
+
     <div class="modal" id="fullerton-farms">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Fullerton Farms</h2>
-                <h3 class="line-two">Stall # B10</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/fullertonfarmsmodal.jpg" alt="Fullertons Farm Stall">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>Seasonal Gourmet Mushrooms and More!</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Derek & Kendra Fullerton</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>derek.fullerton2012@gmail.com</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td><a href="tel:613-848-8432">613-848-8432</a></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td><a class="media-link" target="_blank" href="http://fullertonfarms.ca">fullertonfarms.ca</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="www.facebook.com/FullertonFarms">/FullertonFarms</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td>N/A</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Tueday, Thursday, Saturday</td>
-                                    <td>April - Oct</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Fullerton Farms</h2>
+          <h3 class="line-two">Stall # B10</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/fullertonfarmsmodal.jpg" alt="Fullertons Farm Stall">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Seasonal Gourmet Mushrooms and More!</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Derek & Kendra Fullerton</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>derek.fullerton2012@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-848-8432">613-848-8432</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="http://fullertonfarms.ca">fullertonfarms.ca</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="www.facebook.com/FullertonFarms">/FullertonFarms</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Tueday, Thursday, Saturday</td>
+                    <td>April - Oct</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Fullerton Farms Modal End -->
 
 
     <!-- Lewa Farm Ontario Modal Start -->
-    
+
     <div class="modal" id="lewa-farm-ontario">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Lewa Farm Ontario</h2>
-                <h3 class="line-two">Stall # A31 A32 </h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/lewafarmsmodal.jpg" alt="Lewa Farm Ontario">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p class="small-font">Lewa Farm is located north-east of Belleville. We exercise crop rotation, we apply organic best practices to grow
-                        diverse vegetables while maintaining our farm’s soil healthy. We do not use any type of pesticides, herbicides, nor
-                        plant any GMO seeds, encouraging a diverse ecosystem around our fields. We carefully select produce varieties that grow
-                        well and taste great.
-                        We market fresh, healthy, local food in the surrounding communities. We deliver naturally grown vegetables fresh from
-                        out fields to your doorsteps and farmers market. We consider our customers to be part of our extended family and invite
-                        you to join us as we strive to build healthier communities and environment.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Michelle Ilies</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>lewafarm.ontario@yahoo.com</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://www.instagram.com/lewa_farm_ontario/">/lewafarmontario</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Saturday</td>
-                                    <td>Jan - Dec</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Lewa Farm Ontario</h2>
+          <h3 class="line-two">Stall # A31 A32 </h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/lewafarmsmodal.jpg" alt="Lewa Farm Ontario">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p class="small-font">Lewa Farm is located north-east of Belleville. We exercise crop rotation, we apply
+                organic best practices to grow
+                diverse vegetables while maintaining our farm’s soil healthy. We do not use any type of pesticides,
+                herbicides, nor
+                plant any GMO seeds, encouraging a diverse ecosystem around our fields. We carefully select produce
+                varieties that grow
+                well and taste great.
+                We market fresh, healthy, local food in the surrounding communities. We deliver naturally grown
+                vegetables fresh from
+                out fields to your doorsteps and farmers market. We consider our customers to be part of our extended
+                family and invite
+                you to join us as we strive to build healthier communities and environment.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Michelle Ilies</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>lewafarm.ontario@yahoo.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.instagram.com/lewa_farm_ontario/">/lewafarmontario</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Saturday</td>
+                    <td>Jan - Dec</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Lewa Farm Ontario Modal End -->
 
     <!-- Susan's Dog Treats Modal Start -->
-    
+
     <div class="modal" id="susans-dog-treats">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Susan's Dog Treats</h2>
-                <h3 class="line-two">Stall # A14</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/comingsoon.jpg" alt="Susan's Dog Treats">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>100% All natural homemade dog treats.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Susan</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>susansdogtreats@hotmail.com</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank" href="https://www.facebook.com/Susans-Dog-Treats-576150139078563/">/susansdogtreats</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Saturday</td>
-                                    <td>Jun - Aug</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Susan's Dog Treats</h2>
+          <h3 class="line-two">Stall # A14</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/comingsoon.jpg" alt="Susan's Dog Treats">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>100% All natural homemade dog treats.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Susan</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>susansdogtreats@hotmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/Susans-Dog-Treats-576150139078563/">/susansdogtreats</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Saturday</td>
+                    <td>Jun - Aug</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Susan's Dog Treats Modal End -->
 
 
     <!-- Trees, Organic Food, Food for Thought Modal Start -->
-    
+
     <div class="modal" id="food-for-thought">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Trees, Organic Food, Food for Thought</h2>
-                <h3 class="line-two">Stall # A29</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/comingsoon.jpg" alt="Food For thought's Stall">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>Landscaping trees, organic vegetables, books on politics, economics and philosophy authored by Vernon Molloy.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Vernon Molloy & Patricia Carrol</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>ivanhoe@sympatico.ca</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td><a href="tel:613.242.6128">613.242.6128</a>></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td><a class="media-link target="_blank"
-                                                        href="http://www.backlander.ca">backlander.ca</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Thursday, Saturday</td>
-                                    <td>April - Dec</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Trees, Organic Food, Food for Thought</h2>
+          <h3 class="line-two">Stall # A29</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/comingsoon.jpg" alt="Food For thought's Stall">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Landscaping trees, organic vegetables, books on politics, economics and philosophy authored by Vernon
+                Molloy.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Vernon Molloy & Patricia Carrol</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>ivanhoe@sympatico.ca</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613.242.6128">613.242.6128</a>></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="_blank" href="http://www.backlander.ca">backlander.ca</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Thursday, Saturday</td>
+                    <td>April - Dec</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Trees, Organic Food, Food for Thought Modal End -->
 
 
     <!-- Hidden Gardens Modal Start -->
-    
+
     <div class="modal" id="hidden-garden-farms">
-        <div class="modal-content shadow">
-            <div class="modal-header">
-                <h2>Hidden Garden Farm</h2>
-                <h3 class="line-two">Stall # B3</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <img class="img-fluid" src="images/hiddengardenmodal.jpg" alt="Hidden Garden Farm">
-                    </div>
-                    <div class="col-xl-4 col-lg-12 no-padding">
-                        <p>A tiny farm in Ameliasburg Ontario specializing in micro greens, seedlings and fresh vegetables grown with our own two
-                        hands.
-                        We use organic practices, and like to know just where our seeds and soil come from.
-                        Rebekah does all the planning, ordering and bookwork, while Michael is the face you will see at the market.</p>
-                        <div class="container-fluid no-padding">
-                            <div class="row">
-                                <div class="col-12 no-padding">
-                                    <table class="table contact-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Vendors:</th>
-                                                <td>Michael & Rebekah Quinlan</td>
-                                            </tr>
-                                            <tr>
-                                                <th>E-mail:</th>
-                                                <td>Hiddengardenfarm@gmail.com</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Phone:</th>
-                                                <td><a>N/A</a></td>
-                                            </tr>
-                                            <tr>
-                                                <th>Website:</th>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Facebook:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="https://m.facebook.com/pages/category/Urban-Farm/Hidden-Garden-1840516966204326/">
-                                                        /hiddengardenfarms</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Instagram:</th>
-                                                <td><a class="media-link" target="_blank"
-                                                        href="">/hiddengardenfarms</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-lg-12">
-                        <table class="table table-bordered hours-table">
-                            <thead>
-                                <tr>
-                                    <th>Hours</th>
-                                    <th>Days</th>
-                                    <th>Months</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9am-2pm</td>
-                                    <td>Saturday</td>
-                                    <td>May - Oct</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content shadow">
+        <div class="modal-header">
+          <h2>Hidden Garden Farm</h2>
+          <h3 class="line-two">Stall # B3</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/hiddengardenmodal.jpg" alt="Hidden Garden Farm">
+            </div>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>A tiny farm in Ameliasburg Ontario specializing in micro greens, seedlings and fresh vegetables grown
+                with our own two
+                hands.
+                We use organic practices, and like to know just where our seeds and soil come from.
+                Rebekah does all the planning, ordering and bookwork, while Michael is the face you will see at the
+                market.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Michael & Rebekah Quinlan</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>Hiddengardenfarm@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a>N/A</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://m.facebook.com/pages/category/Urban-Farm/Hidden-Garden-1840516966204326/">
+                              /hiddengardenfarms</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link" target="_blank" href="">/hiddengardenfarms</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Saturday</td>
+                    <td>May - Oct</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Hidden Gardens Modal End -->
 
 
 
 
-<!-- Haanover Farm Modal Start -->
+    <!-- Haanover Farm Modal Start -->
 
-<div class="modal" id="haanoverfarm">
-    <div class="modal-content shadow">
+    <div class="modal" id="haanoverfarm">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Haanover View Farms</h2>
-            <h3 class="line-two">Stall # A37 A38</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Haanover View Farms</h2>
+          <h3 class="line-two">Stall # A37 A38</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/haanoverfarmmodal.jpg" alt="Haanover View Farms">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>We are an accountable family farm. producing ecologically raised heritage pork, grass fed beef, rabbits and free range
-                    chickens. Value, flavour and peace of mind accompany each and every product we provide. We use local government
-                    inspected processing for all our livestock. Our farm inputs are sourced close to home and our old school production
-                    methods ensure sustainability of our family farm.</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Oliver and Renate Haan</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>olrehaan95@gmail.com</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td><a href="tel:613 396 6622">613 396 6622</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td><a class="media-link" target="blank" href="www.ecopork.ca">ecopork.ca</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td><a class="media-link" target="_blank"
-                                                    href="https://www.facebook.com/pages/category/Grocery-Store/Haanover-View-Farms-239672249424047/">
-                                                    /haanoverviewfarms</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td><a class="media-link" target="_blank" href="https://www.pictame.com/user/haanover_view_farms_/3073291438">/haanoverviewfarms</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/haanoverfarmmodal.jpg" alt="Haanover View Farms">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>9am-2pm</td>
-                                <td>Saturday</td>
-                                <td>Jan - Dec</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>We are an accountable family farm. producing ecologically raised heritage pork, grass fed beef, rabbits
+                and free range
+                chickens. Value, flavour and peace of mind accompany each and every product we provide. We use local
+                government
+                inspected processing for all our livestock. Our farm inputs are sourced close to home and our old school
+                production
+                methods ensure sustainability of our family farm.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Oliver and Renate Haan</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>olrehaan95@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:6133966622">613 396 6622</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="blank" href="www.ecopork.ca">ecopork.ca</a></td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/pages/category/Grocery-Store/Haanover-View-Farms-239672249424047/">
+                              /haanoverviewfarms</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.pictame.com/user/haanover_view_farms_/3073291438">/haanoverviewfarms</a>
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Saturday</td>
+                    <td>Jan - Dec</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Haanover Farm Modal End -->
+    <!-- Haanover Farm Modal End -->
 
 
-<!-- Fiddlehead Farm Modal Start -->
+    <!-- Fiddlehead Farm Modal Start -->
 
-<div class="modal" id="fiddleheadfarm">
-    <div class="modal-content shadow">
+    <div class="modal" id="fiddleheadfarm">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Haanover ViewFarms</h2>
-            <h3 class="line-two">Stall # B37 B38</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Haanover ViewFarms</h2>
+          <h3 class="line-two">Stall # B37 B38</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/fiddleheadmodal.jpg" alt="Fiddelhead Farms">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>We have been growing vegetables ecologically on eight acres in Prince Edward County since 2012. We feed over 150 farm
-                    share families with summer and winter vegetable baskets as well as our farmers' market customers. We are inspired by
-                    small scale organic agriculture, growing a wide diversity of crops to keep you eating interesting locally grown veggies
-                    year round. We work to ensure that our farming practices promote biodiversity, rebuild soils, and help you enjoy tasty
-                    veggies!</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Heather Coffey & Stephanie Laing</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>heather@fiddlehead-farm.ca</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td><a class="media-link" target="blank"
-                                                    href="https://www.fiddlehead-farm.ca/">fiddlehead-farm.ca</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td><a class="media-link" target="_blank"
-                                                    href="https://www.facebook.com/FiddleheadFarmPEC">
-                                                    /fiddleheadfarmpec</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td><a class="media-link" target="_blank"
-                                                    href="http://instagram.com/fiddleheadfarmpec">/fiddleheadfarmpec</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/fiddleheadmodal.jpg" alt="Fiddelhead Farms">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>9am-2pm</td>
-                                <td>Saturday</td>
-                                <td>May - Nov</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>We have been growing vegetables ecologically on eight acres in Prince Edward County since 2012. We feed
+                over 150 farm
+                share families with summer and winter vegetable baskets as well as our farmers' market customers. We are
+                inspired by
+                small scale organic agriculture, growing a wide diversity of crops to keep you eating interesting
+                locally grown veggies
+                year round. We work to ensure that our farming practices promote biodiversity, rebuild soils, and help
+                you enjoy tasty
+                veggies!</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Heather Coffey & Stephanie Laing</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>heather@fiddlehead-farm.ca</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="blank"
+                              href="https://www.fiddlehead-farm.ca/">fiddlehead-farm.ca</a></td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank" href="https://www.facebook.com/FiddleheadFarmPEC">
+                              /fiddleheadfarmpec</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="http://instagram.com/fiddleheadfarmpec">/fiddleheadfarmpec</a>
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-2pm</td>
+                    <td>Saturday</td>
+                    <td>May - Nov</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!--  Fiddlehead Farm Modal End -->
+    <!--  Fiddlehead Farm Modal End -->
 
-<!-- Providence Family Farm Start -->
+    <!-- Providence Family Farm Start -->
 
-<div class="modal" id="providencefamilyfarm">
-    <div class="modal-content shadow">
+    <div class="modal" id="providencefamilyfarm">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Providence Family Farm</h2>
-            <h3 class="line-two">Stall # A7</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Providence Family Farm</h2>
+          <h3 class="line-two">Stall # A7</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/providencemodal.jpg" alt="Providence Family Farm">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>Naturally Raised Grass Fed Beef, Pasture Raised Non-GMO fed Pork, and Chicken Tractor Pastured Chicken</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Justin & Cheryl Gifkins</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>TheGifkinspff@gmail.com</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td><a href="tel:613-876-4898">613-876-4898</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td><a class="media-link" target="_blank"
-                                                    href="https://www.facebook.com/www.providencefamilyfarm.ca/">
-                                                    /providencefamilyfarm</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/providencemodal.jpg" alt="Providence Family Farm">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>8am-3pm</td>
-                                <td>Thursday,Saturday</td>
-                                <td>May - Nov</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Naturally Raised Grass Fed Beef, Pasture Raised Non-GMO fed Pork, and Chicken Tractor Pastured Chicken
+              </p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Justin & Cheryl Gifkins</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>TheGifkinspff@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-876-4898">613-876-4898</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="https://www.facebook.com/www.providencefamilyfarm.ca/">
+                              /providencefamilyfarm</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8am-3pm</td>
+                    <td>Thursday,Saturday</td>
+                    <td>May - Nov</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!--  Providence Family Farm End -->
+    <!--  Providence Family Farm End -->
 
 
-<!-- Big Creek Farm Start -->
+    <!-- Big Creek Farm Start -->
 
-<div class="modal" id="annecoleman">
-    <div class="modal-content shadow">
+    <div class="modal" id="annecoleman">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Big Creek Farm</h2>
-            <h3 class="line-two">Stall # B35 B36</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Big Creek Farm</h2>
+          <h3 class="line-two">Stall # B35 B36</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/comingsoon.jpg" alt="Anne Colemans Stall">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>Goat milk soap/products and cut flowers; Shane's Honey and candles, Odessa 613 386
-                    3237 ; Harvest Brinery-613 308 9135 jams, pickles/preserves; Wilton cheese and curds, Wilton ; Sarah Coleman's
-                    crafts-crochet, wood, string art, alpaca, peacock feathers, painted objects, some in season, plants, flowers and
-                    vegetables.; Anne Coleman Usborne books mainly children's books - Farmyard tales related to farming/agriculture/
-                    gardening/outdoors/science, readers, art, crafts, activities.</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Anne Coleman</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>colemanannem1@gmail.com</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td><a href="tel:613-354-6888">613-354-6888</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/comingsoon.jpg" alt="Anne Colemans Stall">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>8am-2:30pm</td>
-                                <td>Tuesday, Thursday, Saturday</td>
-                                <td>Apr - Oct</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Goat milk soap/products and cut flowers; Shane's Honey and candles, Odessa 613 386
+                3237 ; Harvest Brinery-613 308 9135 jams, pickles/preserves; Wilton cheese and curds, Wilton ; Sarah
+                Coleman's
+                crafts-crochet, wood, string art, alpaca, peacock feathers, painted objects, some in season, plants,
+                flowers and
+                vegetables.; Anne Coleman Usborne books mainly children's books - Farmyard tales related to
+                farming/agriculture/
+                gardening/outdoors/science, readers, art, crafts, activities.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Anne Coleman</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>colemanannem1@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td><a href="tel:613-354-6888">613-354-6888</a></td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8am-2:30pm</td>
+                    <td>Tuesday, Thursday, Saturday</td>
+                    <td>Apr - Oct</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Big Creek Farm End -->
+    <!-- Big Creek Farm End -->
 
-<!-- Blank Slate Farm Start -->
+    <!-- Blank Slate Farm Start -->
 
-<div class="modal" id="blankslatefarm">
-    <div class="modal-content shadow">
+    <div class="modal" id="blankslatefarm">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Blank Slate Farm</h2>
-            <h3 class="line-two">Stall # B5</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Blank Slate Farm</h2>
+          <h3 class="line-two">Stall # B5</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/blankslatefarmmodal.jpg" alt="Blank Slate Farm">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>Local and sustainable market garden vegetables, with a focus on freshness, taste, biodiversity, and variety. We are 100%
-                    chemical free and very pollinator friendly.</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Chris Kerr & Emily Donville</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>blankslatefarm@gmail.com</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td><a class="media-link" target="blank" href="Instagram: blankslatefarm">/blankslatefarm</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td><a class="media-link" target="_blank"
-                                                    href="https://www.facebook.com/blankslatefarm/">/blankslatefarm</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/blankslatefarmmodal.jpg" alt="Blank Slate Farm">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>8am-2pm</td>
-                                <td>Saturday</td>
-                                <td>Jun - Oct</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Local and sustainable market garden vegetables, with a focus on freshness, taste, biodiversity, and
+                variety. We are 100%
+                chemical free and very pollinator friendly.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Chris Kerr & Emily Donville</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>blankslatefarm@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td>
+                            <a class="media-link" target="_blank" href="https://www.instagram.com/blankslatefarm/">/blankslatefarm</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td>
+                            <a class="media-link" target="_blank"
+                              href="https://www.facebook.com/blankslatefarm/">/blankslatefarm</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8am-2pm</td>
+                    <td>Saturday</td>
+                    <td>Jun - Oct</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Blank Slate Farm End -->
+    <!-- Blank Slate Farm End -->
 
 
-<!-- Charlen Farm Farm Start -->
+    <!-- Charlen Farm Farm Start -->
 
-<div class="modal" id="charlenfarm">
-    <div class="modal-content shadow">
+    <div class="modal" id="charlenfarm">
+      <div class="modal-content shadow">
         <div class="modal-header">
-            <h2>Charlen Farm</h2>
-            <h3 class="line-two">Stall # A2 A3</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Charlen Farm</h2>
+          <h3 class="line-two">Stall # A2 A3</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <img class="img-fluid" src="images/Charlenfarmmodal.jpg" alt="Charlen Farm">
-                </div>
-                <div class="col-xl-4 col-lg-12 no-padding">
-                    <p>Local and sustainable market garden vegetables, with a focus on freshness, taste, biodiversity,
-                        and variety. We are 100%
-                        chemical free and very pollinator friendly.</p>
-                    <div class="container-fluid no-padding">
-                        <div class="row">
-                            <div class="col-12 no-padding">
-                                <table class="table contact-table">
-                                    <tbody>
-                                        <tr>
-                                            <th>Vendors:</th>
-                                            <td>Harry McMurter</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-mail:</th>
-                                            <td>charlen@promail.lks.net</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Phone:</th>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website:</th>
-                                            <td><a class="media-link" target="_blank" href="http://farmersmarketsontario.com/farmer/charlen-farm/">/charlenfarm</a></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Facebook:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>Instagram:</th>
-                                            <td>N/A
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <img class="img-fluid" src="images/Charlenfarmmodal.jpg" alt="Charlen Farm">
             </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-12">
-                    <table class="table table-bordered hours-table">
-                        <thead>
-                            <tr>
-                                <th>Hours</th>
-                                <th>Days</th>
-                                <th>Months</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>9am-5pm</td>
-                                <td>Tuesday, Thursday, Saturday</td>
-                                <td>May - Oct</td>
-                            </tr>
-                        </tbody>
+            <div class="col-xl-4 col-lg-12 no-padding">
+              <p>Local and sustainable market garden vegetables, with a focus on freshness, taste, biodiversity,
+                and variety. We are 100%
+                chemical free and very pollinator friendly.</p>
+              <div class="container-fluid no-padding">
+                <div class="row">
+                  <div class="col-12 no-padding">
+                    <table class="table contact-table">
+                      <tbody>
+                        <tr>
+                          <th>Vendors:</th>
+                          <td>Harry McMurter</td>
+                        </tr>
+                        <tr>
+                          <th>E-mail:</th>
+                          <td>charlen@promail.lks.net</td>
+                        </tr>
+                        <tr>
+                          <th>Phone:</th>
+                          <td>N/A</td>
+                        </tr>
+                        <tr>
+                          <th>Website:</th>
+                          <td><a class="media-link" target="_blank"
+                              href="http://farmersmarketsontario.com/farmer/charlen-farm/">/charlenfarm</a></td>
+                        </tr>
+                        <tr>
+                          <th>Facebook:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Instagram:</th>
+                          <td>N/A
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-8 col-lg-12">
+              <table class="table table-bordered hours-table">
+                <thead>
+                  <tr>
+                    <th>Hours</th>
+                    <th>Days</th>
+                    <th>Months</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>9am-5pm</td>
+                    <td>Tuesday, Thursday, Saturday</td>
+                    <td>May - Oct</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Blank Slate Farm End -->
+    <!-- Blank Slate Farm End -->
 
-</div>    
-   
-<!-- Footer Start -->
-<footer class="page-footer bg-dark font-small unique-color-dark pt-4">
+  </div>
+
+  <!-- Footer Start -->
+  <footer class="page-footer bg-dark font-small unique-color-dark pt-4">
 
     <!-- Copyright -->
 
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="#"> Belleville Farmers' Market</a>
+    <div class="footer-copyright text-center py-3">
+      <span>© 2018 Copyright:<a href="#"> Belleville Farmers' Market</a></span>
     </div>
 
     <!-- Copyright -->
 
-</footer>
+  </footer>
 
-<!-- Footer End -->
+  <!-- Footer End -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+
+  <script src="js/main.js"></script>
+  <script src="js/instafeed.min.js"></script>
 
 </body>
+
 </html>
